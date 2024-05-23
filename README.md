@@ -49,7 +49,7 @@
 
 # Deployment Testing hosted on Akash
 
- Use Postman or Terminal and use the code below.
+ Use Postman or Terminal and use the code below to interact with the llama model.
 ```
 curl http://<host>/v1/chat/completions \
 -H "Content-Type: application/json" \
