@@ -2,6 +2,7 @@
 
 - Deploy Llama 3 70B with 16-bit quantization on Akash Network.
 - It's a zealy task and was developed for [zealy](https://zealy.io/cw/akashnetwork/questboard/902cfb01-2158-4f0a-9af5-5ea1a97abc8c/1c804b53-c970-4200-b1ee-cd3495255f96) and Hosted on [Akash Network](https://akash.network/).
+- Watch the compplete tutorial of the build with the testing of the deployment here [video](https://youtu.be/spKrJS0NDN0)
 
 
 ## Akash Guide For Creating and Deploying Applications.
