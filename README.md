@@ -23,7 +23,7 @@
   - Here is the link [llama](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) for the huggingface model hub.
   - You then need to request for access to the models from the authors by sharing your required information.
   - Then create an [acces token](https://huggingface.co/settings/tokens) after getting access to the models
-  - Use the access token and replace it with hf_yourtoken in deploy.yaml 
+  - Use the access token and replace it with hf_yourtoken in [deploy.yaml](https://github.com/AllenStar-dev/llama-3-akash/blob/main/deploy.yaml) 
   -   
 
 * Go to Deployments.
@@ -32,7 +32,7 @@
 * You can name the deployment.
 * Click YAML and Paste the SDL (Your own or pre-built).
 * Check this [Readmefile](https://github.com/AllenStar-dev/story_maker/blob/main/README.md?plain=1) on how to run docker.
-* My SDL [deploy.yaml]().
+* My SDL [deploy.yaml](https://github.com/AllenStar-dev/llama-3-akash/blob/main/deploy.yaml).
 * Click Create Deployment.
 * You'll receive a transaction request in the wallet.
 * Approve the transaction request.
