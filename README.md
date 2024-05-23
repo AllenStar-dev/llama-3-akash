@@ -46,3 +46,20 @@
 * For More help reach out to [Akash Discord](https://discord.com/channels/747885925232672829/1111762591937732648).
 * Also Check [Akash Docs](https://akash.network/docs/deployments/cloudmos-deploy/). for any further queries.
 * Happy Deploying on Akash.
+
+# Deployment Testing hosted on Akash
+
+ Use Postman or Terminal and use the code below.
+```
+curl http://<host>/v1/chat/completions \
+-H "Content-Type: application/json" \
+-d '{
+"model": "meta-llama/Meta-Llama-3-70B-Instruct",
+"messages": [
+{"role": "system", "content": "You are a helpful assistant."},
+{"role": "user", "content": "Ask anything ?"}
+]
+}'
+```
+
+- Replace http://<host>/v1/chat/completions with the provider url in the leases section of deployment.
